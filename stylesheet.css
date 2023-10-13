@@ -1,0 +1,189 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+    
+      
+    
+}
+.card {
+  width: 650px;
+  box-shadow: hsl(221, 100%, 96%) 5px 5px 5px 8px;
+  border-radius: 15px;
+  background-color: white;
+  
+  
+
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.result {
+ width: 50%;
+ padding: 1.5rem 2rem;
+ border-radius: 15px;
+ background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 1rem;
+
+ 
+
+
+}
+.result .title {
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 1rem;
+    font-weight: 500;
+   
+}
+
+.result .circle {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    flex-direction: column;
+}
+.circle h1 {
+    font-size: 50px;
+    line-height: 0px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 800;
+    
+}
+.circle p {
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+
+    
+    
+}
+.result b {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+.result .info {
+    color:hsl(241, 100%, 89%) ;
+    font-size: 18px;
+    
+
+}
+.summary {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+    gap: 1rem;
+
+}
+.summary .title {
+    color:hsl(224, 30%, 27%) ;
+    font-weight: 700;
+
+   
+}
+.rows{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.row {
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem 0,5rem;
+   border-radius: 10px;
+   align-items: center;
+
+}
+.row:nth-child(1) {
+    background-color: hsla(0, 100%, 67%, 7%);
+    
+
+}
+.row:nth-child(1) .badge b {
+    color: hsl(0, 100%, 67%);
+
+}
+.row:nth-child(2) {
+    background-color: hsla(39, 100%, 56%, 7%);
+    
+
+}
+.row:nth-child(2) .badge b {
+    color: hsl(39, 100%, 56%);
+
+}
+.row:nth-child(3) {
+    background-color:hsla(166, 100%, 37%, 7%);
+    
+   
+}
+.row:nth-child(3) .badge b {
+    color: hsl(166, 100%, 37%);
+
+}
+.row:nth-child(4) {
+    background-color: hsla(234, 85%, 45%, 7%);
+    
+
+}
+.row:nth-child(4) .badge b {
+    color: hsl(234, 85%, 45%);
+
+}
+.row p {
+    color: grey;
+    margin-right: 0.5rem;
+    
+
+   
+}
+.row p b {
+    color: hsl(224, 30%, 27%);
+
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    margin-left: 0.5rem;
+    
+}  
+
+.button {
+    background-color: hsl(224, 30%, 27%);
+    text-align: center;
+    color: white;
+    border: 0;
+    border-radius: 2rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+} 
+
+.button:hover {
+ background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+
+
+    
